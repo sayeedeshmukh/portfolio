@@ -1,0 +1,250 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x:hidden ;
+}
+
+#cursor{
+    background-color:rgb(255, 174, 201);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 100;
+}
+
+.nav{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.nav-links{
+    display: flex;
+    gap: 30px;
+    color:rgb(255, 174, 201);
+    margin-right:5% ;
+}
+
+.nav h2{
+    font-size: 70px;
+    color:rgb(255, 174, 201);
+    margin-left: 2%;
+    font-family: 'Sooky 70s', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(255, 174, 201);
+    font-weight: bold;
+}
+
+#page1{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color:black;
+    color:rgb(255, 174, 201);
+}
+
+#page1 h1{
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-size:38vw;
+    text-align: center;
+
+}
+
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 174, 201);
+    align-content: center;
+    justify-content: center;
+    font-size: 20vw;
+    overflow-x: hidden;
+}
+
+#page2 h1{
+    margin-left:15% ;
+    font-family: 'Quethy', sans-serif;
+}
+
+
+.card-container{
+    position: relative;
+    height: 120vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 100px;
+    row-gap: 0;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.cards{
+    width: 300px;
+    height: 320px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.card1{
+    left: 46%;
+    top: 5%;
+    rotate: -10deg;
+    background-color:#8ff0ff ;
+}
+
+.card2{
+    top:10%;
+    left: 10%;
+    rotate: 35deg;
+    background-color:rgb(151, 143, 255) ;
+}
+
+.card3{
+    left: 30%;
+    rotate: 20deg;
+    grid-row: 2;
+    background-color: rgb(255, 234, 143);
+}
+
+.card4{
+    rotate: -30deg;
+    top: -5%;
+    left: 67%;
+    grid-row: 2;
+    background-color: rgb(255, 160, 143);
+}
+.card5{
+    rotate: -30deg;
+    top: 9%;
+    left: 90%;
+    grid-row: 1;
+    background-color: rgb(167, 255, 143);
+}
+.card6{
+    rotate: 60deg;
+    top: 8%;
+    left: -7%;
+    grid-row: 2;
+    background-color: rgb(238, 143, 255);
+}
+
+
+#blue-void{
+    position: absolute;
+    height: 50px;
+    top: 20%;
+    left: 3%;
+}
+
+#purple-fool{
+    position: absolute;
+    height: 70px;
+    top: 40%;
+    left: 28%;
+}
+
+#blue-butterfly{
+    position: absolute;
+    height: 90px;
+    top: 32%;
+    left: 72%;
+}
+
+#purple-void{
+    position: absolute;
+    height: 60px;
+    top: 57%;
+    left: 91%;
+}
+
+#orange-void{
+    position: absolute;
+    height: 90px;
+    top: 45%;
+    left: 8%;
+    
+}
+
+#blue-heart{
+    position: absolute;
+    height: 90px;
+    top: 68%;
+    left: 20%;
+}
+
+#orange-wave{
+    scale: 0.8;
+    rotate: 50deg;
+    position: absolute;
+    height: 90px;
+    top: 26%;
+    left: 37%;
+}
+
+#yellow-void{
+    rotate: 180deg;
+    position: absolute;
+    height: 90px;
+    top: 2%;
+    left: 25%;
+}
+
+.cards img{
+    position: absolute;
+    z-index: 5;
+    transform-origin: center;
+}
+
+#creative{
+    top: 10%;
+    height: 300px;
+}
+
+#webdev{
+    left: -20%;
+    height: 330px;
+}
+
+#blue-lap{
+    height: 200px;
+}
+
+#projects-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+}
+
+.tag-fluid{
+    height: 20vh;
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+    border-radius: 40px;
+    background-color: rgb(255, 217, 238);
+    margin-bottom: 10%;
+    margin-top: 5%;
+    color: #d14473;
+    font-size: 35px;
+
+}
+
+.tag-fluid h2{
+    font-family: 'Cedarville Cursive', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top: 25%;
+}
