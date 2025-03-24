@@ -120,3 +120,9 @@ a{
     height: 100vh;
     background-color: black;
 }
+
+#skills-text{
+    position: absolute;
+    top: 220%;
+    left: 3%;
+}
