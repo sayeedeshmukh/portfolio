@@ -5,7 +5,7 @@
 
 body{
     background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Poppins, sans-serif;
     overflow-x:hidden ;
 }
 
@@ -60,4 +60,25 @@ a{
     font-size:38vw;
     text-align: center;
 
+}
+
+.page2{
+    width: 1300px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    background-color: #f9bad1;
+    border-radius: 50px;
+    box-shadow: 30px -30px 20px 0px rgb(174, 33, 85,25%) inset;
+}
+
+.content-likhit{
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    margin-left: 10%
 }
