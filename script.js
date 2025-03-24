@@ -18,3 +18,12 @@ tl.from("#page1 h1", {
     duration: 1,
     stagger: 0.2
 });
+
+var cursor = document.querySelector("#cursor");
+document.body.addEventListener("mousemove", function (dets) {
+    gsap.to(cursor, {
+        x: dets.x,
+        y: dets.y,
+        ease: "back.out(3)"
+    });
+});
