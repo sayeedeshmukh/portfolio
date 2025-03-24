@@ -115,3 +115,8 @@ a{
     position: absolute;
     top: 72%;
 }
+
+.page3{
+    height: 100vh;
+    background-color: black;
+}

@@ -27,3 +27,15 @@ document.body.addEventListener("mousemove", function (dets) {
         ease: "back.out(3)"
     });
 });
+
+gsap.from(".page2", {
+    duration: 2,
+    opacity:0,
+    scrollTrigger: {
+        scroller: "body",
+        trigger: "#page2",
+        start: "top 5%",
+        end: "top -150%",
+        scrub: 3,
+        }
+});
