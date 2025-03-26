@@ -123,6 +123,23 @@ a{
 
 #skills-text{
     position: absolute;
-    top: 220%;
+    top: 210%;
     left: 3%;
+}
+
+.skills-likhit h2{
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    font-size: 90px;
+    text-align: center;
+    color: #F9BAD1;
+    margin-top: 18%;
+}
+
+.skills-likhit img{
+    position: relative;
+    justify-self: center;
+    align-self: center;
+    left: 714px;
+
 }
