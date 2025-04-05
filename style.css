@@ -124,7 +124,7 @@ a{
 #skills-text{
     position: absolute;
     top: 210%;
-    left: 3%;
+    left: 1%;
 }
 
 .skills-likhit h2{
@@ -141,5 +141,45 @@ a{
     justify-self: center;
     align-self: center;
     left: 714px;
+}
 
+.skills-vector{
+    position: relative;    
+    top: 350px;
+    z-index: 10;
+}
+
+.stars{
+    position: absolute;
+    z-index: 3;
+}
+
+.star1{
+    top: 3200px;
+    left: 1%;
+}
+
+.star2{
+    top: 2930px;
+    left: 22%;
+}
+
+.star3{
+    top:3040px;
+    left:769.5px;
+}
+
+.star4{
+    top:2725px;
+    left:1110px;
+}
+
+.star5{
+    top: 2950px;
+    left: 1350px;
+}
+
+.star6{
+    top: 3006px;
+    left: 1621.5px;
 }
